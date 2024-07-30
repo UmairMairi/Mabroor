@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestDemo</string>
+    <string name="no_Internet">Please connect to internet!</string>
+
+</resources>

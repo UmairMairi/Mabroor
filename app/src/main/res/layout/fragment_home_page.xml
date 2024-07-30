@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".presentation.home.HomeFragment">
+
+    <data>
+
+    </data>
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/callList"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="20dp"
+        android:text="Call List" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buyList"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="20dp"
+        android:text="Buy List" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sellList"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="20dp"
+        android:text="Sell List" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
